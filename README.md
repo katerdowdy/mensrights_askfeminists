@@ -49,13 +49,13 @@ I tried vectorizing on ngrams 3-5, 1-2, and just single words, and created two c
 
 Looking at the top 10 phrases (ngrams = 3-5) from AskFeminists and MensRights, it's interesting to see that they share 3 of the 10 phrases. This indicates to me that similar topics are being discussed on both threads, making it harder to distinguish which subreddit content was made for but also suggesting that these are topics of interest to posters on both threads.
 
-<img src="../Images/top_phrases.png">
+<img src="./Images/top_phrases.png">
 
 **Tonal and Stylistic Differences**
 
 I was expecting a clearer distinction in the tone between the two subreddits: I assumed MensRights would be more bitter and antagonistic (and that this would come through in the language of the posts), and that AskFeminists would be more neutral given the nature of the subreddits (and their reputations.) The main stylistic differences between the two threads seem to be in the level of focus on the subs: for AskFeminists, bigrams were just as common as single words suggesting more focus within topics, but for MensRights single words were by far more common than bigrams. The emotional charge of the most common words seem to be equal for both threads.
 
-<img src="../Images/top_bigrams.png">
+<img src="./Images/top_bigrams.png">
 
 ### Modeling
 
@@ -81,13 +81,13 @@ True Positives: 4498
 
 I wanted to look at some of the examples of misclassified content. I found some of them were difficult for me to tell which thread they belonged to, which reinforced the ambiguity in the model classification.
 
-<img src="../Images/classification_errors.png">
+<img src="./Images/classification_errors.png">
 
 **Most Influential Words/Phrases**
 
 To me, the strongest coefficients for predicting MensRights content were more suprising than the coefficients for AskFeminists, which makes it easy to see why the model may have been slightly worse at classifying content for MensRights.
 
-<img src="../Images/coef.png">
+<img src="./Images/coef.png">
 
 ## Conclusion
 
