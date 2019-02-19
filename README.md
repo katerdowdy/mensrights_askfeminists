@@ -31,19 +31,19 @@ For more context on what these subreddits are about, here's some background on b
 ## Contents
 In this repo, you will find the following the following notebooks:
 
-A. Data Collection
+A. [Webscraping](https://github.com/katerdowdy/mensrights_askfeminists/blob/master/A-WebScraping.ipynb)
 
-B. Cleaning
+B. [Cleaning](https://github.com/katerdowdy/mensrights_askfeminists/blob/master/B-Cleaning.ipynb)
 
-C. Vectorizing / Modeling
+C. [Vectorizing / Modeling](https://github.com/katerdowdy/mensrights_askfeminists/blob/master/C-Vectorizing_Modeling.ipynb)
 
-as well as presentation slides and data from the two subreddits.
+as well as [presentation slides](https://github.com/katerdowdy/mensrights_askfeminists/blob/master/Reddit.pd) and [data from the two subreddits.](https://github.com/katerdowdy/mensrights_askfeminists/tree/master/data)
 
-This project was developed as part of the Data Science Immersive program at General Assembly in December, 2018. At the time of project completion, we had completed 6 weeks of the course.
+This project was developed as part of the Data Science Immersive program at General Assembly in December, 2018. At the time of project completion, we had completed 6.5 weeks of the course.
 
-Software/packages required for running these notebooks: Python, Pandas, Numpy, Scikit-learn, Time, Tweepy, Json, Datetime, NLTK, Regex
+Software/packages required for running these notebooks: Python, Pandas, Numpy, Scikit-learn, Time, Datetime, Json, Datetime, NLTK, Regex
 
-Webscraping: BeautifulSoup
+Webscraping: BeautifulSoup, Requests
 
 ## Process
 ### Web Scraping
