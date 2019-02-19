@@ -28,6 +28,23 @@ For more context on what these subreddits are about, here's some background on b
 
 > After conducting natural language processing on text from posts and comments over the last year from the subreddits 'AskFeminists' and 'MensRights', how accurately can we predict which subreddit new content belongs to?
 
+## Contents
+In this repo, you will find the following the following notebooks:
+
+A. Data Collection
+
+B. Cleaning
+
+C. Vectorizing / Modeling
+
+as well as presentation slides and data from the two subreddits.
+
+This project was developed as part of the Data Science Immersive program at General Assembly in December, 2018. At the time of project completion, we had completed 6 weeks of the course.
+
+Software/packages required for running these notebooks: Python, Pandas, Numpy, Scikit-learn, Time, Tweepy, Json, Datetime, NLTK, Regex
+
+Webscraping: BeautifulSoup
+
 ## Process
 ### Web Scraping
 
@@ -98,5 +115,6 @@ It would be too easy to say that my best model's inability to crack 77% accuracy
 3. I could scrape another years' worth of data to add to the model.
 4. I could do some more cleaning and EDA that might help consolidate slang/similar terms that weren't captured by the lemmatizer, and identify stronger trends in the subreddits that could be leveraged for better prediction.
 5. If any of the above helped minimize overfit on the Logistic Regression or Random Forest, I'd give Naive Bayes Multinomial and Support Vector Classifier another shot (and spend more time tuning them).
+6. We hadn't learned about unsupervised learning at the time of completing this project, but I think it would have been interesting to do topic modeling on the two subreddits to add that layer to the comparison.
 
 The **really** interesting questions this project has generated would require a deeper analysis: what's the overlap in people who post on MensRights and AskFeminists? (How many of those are trolls, whose content is removed?) What common themes exist between removed posts (can we write an algorithm for trolling content?) How does sentiment analysis compare across the two subreddits, is there a discernable difference? Is it possible to measure 'extreme' attitudes in a subreddit, and if so can it be mapped over time, against real events happening in the world that might trigger anger on both or one side? Is it possible to follow the posts of single users and see how they change in sentiment and neutrality over time (and does the sub they post on the most make a difference?) Maybe I'll come back to those someday.
